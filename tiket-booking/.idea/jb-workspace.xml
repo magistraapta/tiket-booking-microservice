@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WorkspaceSettings">
+    <project name="order-service" path="$PROJECT_DIR$/../order-service" />
+    <project name="event-service" path="$PROJECT_DIR$/../event-service" />
+    <project name="service-discovery" path="$PROJECT_DIR$/../service-discovery" />
+    <project name="api-gateway" path="$PROJECT_DIR$/../api-gateway" />
+    <option name="workspace" value="true" />
+  </component>
+</project>

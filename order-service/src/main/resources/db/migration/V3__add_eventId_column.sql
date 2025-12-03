@@ -1,0 +1,1 @@
+ALTER TABLE "orders" add column event_id BIGINT;
