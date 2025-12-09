@@ -4,7 +4,7 @@
     <project name="order-service" path="$PROJECT_DIR$/../order-service" />
     <project name="event-service" path="$PROJECT_DIR$/../event-service" />
     <project name="service-discovery" path="$PROJECT_DIR$/../service-discovery" />
-    <project name="api-gateway" path="$PROJECT_DIR$/../api-gateway" />
+    <project name="gateway-service" path="$PROJECT_DIR$/../gateway-service" />
     <option name="workspace" value="true" />
   </component>
 </project>
