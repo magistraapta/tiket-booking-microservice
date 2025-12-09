@@ -5,6 +5,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 
+/**
+ * GatewayConfig is a configuration class that routes requests to the appropriate service.
+ * routing request to the appropriate service
+ */
 @Configuration
 public class GatewayConfig {
     
