@@ -1,0 +1,28 @@
+spring:
+    application:
+        name: tiket-service
+    
+    datasource:
+        url: jdbc:postgresql://localhost:5432/tiket-service-db
+        username: postgres
+        password: postgres
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                format_sql: true
+                show_sql: true
+                use_sql_comments: true
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+    flyway:
+        enabled: true
+        locations: classpath:db/migration
+        baseline-on-migrate: true
+        schemas: public
+        table: flyway_schema_history
+
+server:
+    port: 8081
+    
