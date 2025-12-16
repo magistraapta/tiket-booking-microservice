@@ -25,6 +25,7 @@ public class EventServiceTest {
             .name("Test Event")
             .description("Test Description")
             .startDate(Instant.now())
+            .price(100.0)
             .availableSeats(100)
             .totalSeats(100)
             .build();
@@ -46,6 +47,7 @@ public class EventServiceTest {
             .name("Test Event")
             .description("Test Description")
             .startDate(Instant.now())
+            .price(100.0)
             .availableSeats(100)
             .totalSeats(100)
             .build();

@@ -31,6 +31,7 @@ public class TicketServiceTest {
         EventEntity event = EventEntity.builder()
             .name("Test Event")
             .description("Test Description")
+            .price(100.0)
             .startDate(now)
             .availableSeats(100)
             .totalSeats(100)
