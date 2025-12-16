@@ -29,6 +29,9 @@ public class EventEntity {
     @Column(name = "description", nullable = false)
     private String description;
 
+    @Column(name = "price", nullable = false)
+    private Double price;
+
     @Column(name = "start_date", nullable = false)
     private Instant startDate;
 

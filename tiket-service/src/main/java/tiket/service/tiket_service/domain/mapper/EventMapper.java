@@ -13,5 +13,6 @@ public interface EventMapper {
     @Mapping(target = "updatedAt", ignore = true)
     EventEntity toEntity(CreateEventRequest request);
     
+    @Mapping(source = "price", target = "price")
     EventResponse toResponse(EventEntity entity);
 }

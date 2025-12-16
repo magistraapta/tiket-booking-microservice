@@ -22,7 +22,11 @@ spring:
         baseline-on-migrate: true
         schemas: public
         table: flyway_schema_history
-
+    rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
 server:
     port: 8081
     
